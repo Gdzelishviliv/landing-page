@@ -1,0 +1,41 @@
+@media screen and (min-width:1200px) {
+    .container{
+        padding-inline: 165px;
+    }
+    .menu-btn{
+        display: none;
+    }
+    .desctop-head-btns{
+        display: flex;
+        align-items: center;
+        gap: 25px;
+    }
+    .desctop-head-btns a{
+        color:var(--lightbrown);
+        letter-spacing: 1.5px;
+        font-size: 13px;
+        text-align: center;
+        font-weight: 700;
+    }
+    .btn-in-desctop{
+        cursor: pointer;
+        border: 2px solid var(--brown);
+        background: #fff;
+        width: 146px;
+        height: 40px;
+        color: var(--brown);  
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 13px;
+        font-weight: 700;
+    }
+    .desctop-head-btns a:hover{
+        color:var(--brown);
+    }
+    .btn-in-desctop:hover{
+        border: 2px solid var(--brown);
+        background: var(--brown);
+        color: var(--white);
+    }
+}
