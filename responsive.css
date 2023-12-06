@@ -64,7 +64,8 @@
         line-height: 64px;
         letter-spacing: -1px;
         font-weight: 400;
-
+        margin: 0px;
+        margin-top: 60px;
     }
     .grid-tstimonials{
         margin-top: 305px;
@@ -114,6 +115,7 @@
         justify-content: space-between;
         padding-top: 67px;
         padding-inline: 165px;
+        margin-bottom: 80px;
         background: none;
     }
     .footer-icns span{
@@ -126,6 +128,7 @@
     .footer-info{
         padding-inline: 165px;
         grid-template-columns: auto auto auto auto;
+        padding-bottom: 64px;
     }
     .footer-links{
         justify-items: start;
@@ -172,10 +175,31 @@
         background-repeat: no-repeat;
         width: 530px;
         height: 232px;
-        bottom: 67px;
+        bottom: 173px;
         left: 0px;
     }
     .frame-2{
         display: none;
+    }
+    .footer-line{
+        position: absolute;
+        right: 165px;
+        bottom: 273px;
+        display: flex;
+        text-align: center;
+        width: 1190px;
+        background: #DADADA;
+        border: 1px solid #DADADA;
+    }
+    .info .xazi{
+        display: grid;
+        margin-top: 105px;
+        border: 1px solid #fff;
+        width: 150px;
+        background: #fff;
+    }
+    .info p{
+        margin: 0px;
+        margin-top: 10px;
     }
 }
