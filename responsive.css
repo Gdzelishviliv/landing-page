@@ -1,4 +1,4 @@
-@media screen and (min-width:1200px) {
+@media screen and (min-width:1348px) {
     .container{
         padding-inline: 165px;
     }
@@ -37,5 +37,130 @@
         border: 2px solid var(--brown);
         background: var(--brown);
         color: var(--white);
+    }
+    .info-container{
+        grid-template-columns:540px auto;
+        padding-inline: 165px;
+        justify-content: space-between;
+        
+    }
+    .info{
+        order: 1;
+        text-align: start;
+    }
+    .picture{
+        order: 2;
+        background: url(./pictures/humans2.png);
+        width: 540px;
+        height: 650px;
+        background-repeat: no-repeat;
+        margin-top: 100px;
+    }
+    .info-background{
+        height: 600px;
+    }
+    .info h1{
+        font-size: 72px;
+        line-height: 64px;
+        letter-spacing: -1px;
+        font-weight: 400;
+
+    }
+    .grid-tstimonials{
+        margin-top: 305px;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto auto;
+        justify-content: space-between;
+        padding-inline: 165px;
+        gap: 0px;
+    }
+    .grid-head{
+        grid-column: 1/span 3;
+        width: 468px;
+        justify-items: start;
+    }
+    .grid-head h2{
+        font-size: 72px;
+        font-weight: 400;
+        line-height: 64px;
+        letter-spacing: -1;
+    }
+    .gridwith-background{
+        grid-column: 1/span 3;
+        grid-row: 3;
+    }
+    .grid-card{
+        justify-items: start;
+        text-align: start;
+    }
+    .grid-card p{
+        width: 350px;
+    }
+    .gridwith-background{
+        display: flex;
+        justify-content: space-between;
+        padding: 69px 80px 69px 81px;
+        width: 1164px;
+        height: 253px;
+    }
+    .gridwith-background h2 {
+        font-size: 56px;
+        line-height: 56px;
+        width: 445px;
+        text-align: start;
+    }
+    .footer-icns{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 67px;
+        padding-inline: 165px;
+    }
+    .footer-icns span{
+        display: none;
+    }
+    #svg-1{
+        margin: 0px;
+    }
+    .footer-info{
+        padding-inline: 165px;
+        grid-template-columns: auto auto auto auto;
+    }
+    .footer-links{
+        justify-items: start;
+    }
+    .frame-3{
+        background: url(./pictures/frame5.svg);
+        background-repeat: no-repeat;
+        top: 1px;
+        right: 0px;
+        width: 435px;
+        height: 250px;
+    }
+    .gridwith-background button{
+        z-index: 1;
+    }
+    .frame-6{
+        position: absolute;
+        background: url(./pictures/frame6.svg);
+        background-repeat:no-repeat ;
+        height: 593px;
+        width: 437px;
+        top: 64px;
+        right:0px;
+    }
+    body{
+        position: relative;
+    }
+    .frame{
+        display: none;
+    }
+    .frame-7{
+        position: absolute;
+        background: url(./pictures/frame7.svg);
+        background-repeat: no-repeat;
+        height: 519px;
+        width: 196px;
+        left: 0px;
+        top: 414px;
     }
 }

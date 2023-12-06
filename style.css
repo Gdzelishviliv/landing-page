@@ -39,7 +39,6 @@ body{
     overflow: hidden;
     position: relative;
     text-align: center;
-    background: var(--lightblack);
 }
 .info h1{
     margin-top: 93px;
